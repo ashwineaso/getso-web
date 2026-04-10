@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.getso.mobile",
+      "sha256_cert_fingerprints": [
+        "D1:D6:4D:E2:40:51:8C:EA:AE:74:48:DC:61:E6:54:98:0E:01:23:38:5D:48:7F:94:75:51:CF:40:E5:C6:26:EC"
+      ]
+    }
+  }
+]
