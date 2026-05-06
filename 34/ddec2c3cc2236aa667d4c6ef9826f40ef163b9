@@ -1,0 +1,30 @@
+scripts/patch-worker.mjs
+  b1d0c86d7355e45b 1-41
+package.json
+  b1d0c86d7355e45b 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "34ddec2c3cc2236aa667d4c6ef9826f40ef163b9",
+  "prompts": {
+    "b1d0c86d7355e45b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8adeb00d-0dfa-41f1-986e-625b828c86da",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Ashwin Easo",
+      "messages": [],
+      "total_additions": 121,
+      "total_deletions": 71,
+      "accepted_lines": 27004,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_f19f26ae7fde78": {
+      "author": "Ashwin Easo"
+    }
+  }
+}
