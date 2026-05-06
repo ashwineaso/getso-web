@@ -7,7 +7,7 @@
     "build": "next build",
     "build:cf": "opennextjs-cloudflare build",
     "preview": "opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare deploy",
+    "deploy": "npm run build:cf && rm -rf .pages-deploy && mkdir .pages-deploy && cp -r .open-next/. .pages-deploy/ && cp -r .open-next/assets/. .pages-deploy/ && mv .pages-deploy/worker.js .pages-deploy/_worker.js && wrangler pages deploy .pages-deploy --project-name getso-web --commit-dirty=true",
     "start": "next start",
     "lint": "next lint"
   },
