@@ -1,3 +1,5 @@
+"use client";
+
 interface AppBadgesProps {
   className?: string;
 }
