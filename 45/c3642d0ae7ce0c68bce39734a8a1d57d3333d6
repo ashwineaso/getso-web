@@ -1,0 +1,28 @@
+.gitignore
+  b1d0c86d7355e45b 45-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "45c3642d0ae7ce0c68bce39734a8a1d57d3333d6",
+  "prompts": {
+    "b1d0c86d7355e45b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8adeb00d-0dfa-41f1-986e-625b828c86da",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Ashwin Easo",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 0,
+      "accepted_lines": 26966,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_f19f26ae7fde78": {
+      "author": "Ashwin Easo"
+    }
+  }
+}
